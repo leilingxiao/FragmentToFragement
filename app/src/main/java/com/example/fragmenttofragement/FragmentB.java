@@ -15,7 +15,7 @@ import androidx.fragment.app.Fragment;
 public class FragmentB extends Fragment {
     private FragmentBListener listener;
     private EditText editText;
-    private Button buttonsubmit;
+    private Button buttonSubmit;
 
     public interface  FragmentBListener {
         void onInputBSent(CharSequence input);
@@ -28,8 +28,8 @@ public class FragmentB extends Fragment {
         View v = inflater.inflate(R.layout.fragment_b, container, false);
 
         editText = v.findViewById(R.id.edit_text);
-        buttonsubmit = v.findViewById(R.id.button_submit);
-        buttonsubmit.setOnClickListener(new View.OnClickListener(){
+        buttonSubmit = v.findViewById(R.id.button_submit);
+        buttonSubmit.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
                 CharSequence input = editText.getText();

@@ -17,8 +17,8 @@ public class MainActivity extends AppCompatActivity implements FragmentA.Fragmen
         fragmentB = new FragmentB();
 
         getSupportFragmentManager().beginTransaction()
-                .replace(R.id.container_a,fragmentA)
-                .replace(R.id.container_b,fragmentB)
+                .add(R.id.container_a,fragmentA)
+                .add(R.id.container_b,fragmentB)
                 .commit();
     }
 

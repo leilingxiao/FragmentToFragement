@@ -7,12 +7,12 @@
     android:background="@color/colorAccent">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/edit_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
 
-        android:text="Type what you want" />
+        android:hint="Type what you want" />
 
     <Button
         android:id="@+id/button_submit"

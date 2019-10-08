@@ -7,14 +7,15 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <fragment
+    <FrameLayout
         android:id="@+id/container_a"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+
         android:layout_weight="1"
         />
 
-    <fragment
+    <FrameLayout
         android:id="@+id/container_b"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
